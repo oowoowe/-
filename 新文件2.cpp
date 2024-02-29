@@ -16,6 +16,7 @@ using namespace std;
 	light=100, //燈火，過低將扣safe 
 	left_key=0,//左塔中部的鑰匙 
 	machine=1;//機關室機械狀況 
+	int a;
 void time(){
 	if (time_m>=60){
 		time_m=time_m-60;
